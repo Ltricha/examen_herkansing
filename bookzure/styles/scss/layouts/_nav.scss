@@ -1,0 +1,113 @@
+
+.l-nav {
+  overflow: hidden;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+}
+
+
+
+.nav-toggle {
+
+  padding: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+
+
+  @media (min-width: 785px) {
+      display: none;
+    }
+
+}
+
+.l-nav__item {
+
+
+  a {
+    color: #828282;
+    font-size: 1rem;
+    display: block;
+    padding: 0.8rem 1rem;
+
+
+
+    &:hover {
+      color: #000; // add animation later
+    }
+
+
+  }
+
+
+  @media (min-width: 768px) {
+
+    display: inline-block;
+
+  }
+
+}
+
+
+
+
+
+.l-nav--top {
+
+  display: none;
+
+  ul {
+    display: inline-block;
+  }
+
+
+  @media (min-width: 768px) {
+    display: block;
+
+  }
+
+
+}
+
+
+
+
+
+
+.l-nav--bottom {
+
+
+  @media (min-width: 768px) {
+    display: block;
+
+  }
+
+
+  a {
+    font-size: 1.5rem;
+  }
+
+
+
+}
+
+
+@media (min-width: 768px) {
+
+
+}
+
+
+
+
+
+.l-nav--mobile {
+  background: #ffff;
+  z-index: 1000;
+
+  height: 100%;
+  width: 100%;
+}

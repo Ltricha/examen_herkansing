@@ -1,0 +1,50 @@
+
+
+.search-nav {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+
+  margin: 1rem auto;
+  //background: grey;
+
+  button {
+    transition: 0.5s;
+    color: #828282;
+    border: solid;
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    &:hover {
+      color: #22837a;
+      cursor: pointer;
+    }
+
+  }
+
+
+  input {
+    border: 2px solid transparent;
+    transition: all .1s ease-in-out;
+    //box-shadow: inset 2px 2px 5px #525252;
+    background: #ececec;
+    border-radius: 15px;
+    padding: .6rem 1rem;
+    width: 100%;
+    max-width: 25rem;
+
+    &:focus {
+
+      border: 2px solid teal;
+      box-shadow:  2px 2px 5px grey;
+
+    }
+
+  }
+
+}
