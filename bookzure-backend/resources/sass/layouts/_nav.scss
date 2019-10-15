@@ -1,0 +1,133 @@
+
+.l-nav {
+  overflow: hidden;
+  width: 100%;
+  z-index: 900;
+
+
+
+  @media (min-width: 768px) {
+    height: 5rem;
+    display: block;
+
+
+    ul {
+      display: inline-flex;
+      height: 100%;
+      align-items: center;
+    }
+
+  }
+
+}
+
+
+
+
+
+.l-nav__item {
+
+
+  a {
+    color: #000000;
+    font-size: 1rem;
+    display: block;
+    padding: .5rem 0;
+
+
+
+    &:hover {
+      color: #000; // add animation later
+    }
+
+    @media (min-width: 768px) {
+      color: #828282;
+      padding: 0.8rem 1rem;
+
+    }
+
+
+  }
+
+
+
+}
+
+
+
+
+
+.l-nav--top {
+
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+
+ 
+
+
+}
+
+
+
+
+
+
+.l-nav--bottom {
+  display: none;
+  position: fixed;
+  background: inherit;
+
+
+  @media (min-width: 768px) {
+    position: static;
+    display: block;
+    //height: inherit;
+
+  }
+
+
+  a {
+    font-size: 1.4rem;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.nav-toggle {
+
+  padding: .6rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+
+
+  @media (min-width: 785px) {
+    display: none;
+  }
+
+}
+
+
+
+.l-nav--mobile {
+  background: #ffff;
+  z-index: 1000;
+
+  height: 100%;
+  width: 100%;
+}
+
+

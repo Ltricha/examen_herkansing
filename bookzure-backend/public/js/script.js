@@ -64,11 +64,11 @@ function getRandomInt(maxNum) {
 
 
 
-let shoppingList = new Array();
+var shoppingList = new Array();
 
 
 
-let addCartBtn = document.getElementsByClassName("add-to-product");
+var addCartBtn = document.getElementsByClassName("add-to-product");
 
 //console.log(addProductBtn);
 
@@ -82,14 +82,14 @@ function addToCart() {
 
 
 
-let navToggle = document.getElementsByClassName('nav-toggle')[0];
+var navToggle = document.getElementsByClassName('nav-toggle')[0];
 navToggle.addEventListener('click', toggleNav);
 
 
 
 function toggleNav() {
 
-  let navBottom = document.getElementsByClassName('l-nav--bottom')[0];
+  var  navBottom = document.getElementsByClassName('l-nav--bottom')[0];
   navBottom.classList.toggle('is-open');
 
 

@@ -1,0 +1,43 @@
+
+.btn {
+  transition: 1s;
+  display: inline-block;
+  border: solid 1.5px;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  margin: 2rem 0;
+
+
+
+  &:hover {
+    cursor: pointer;
+    
+  }
+
+}
+
+
+
+.button_add-product {
+
+}
+
+
+
+
+.btn--small {
+
+
+}
+
+
+.btn--medium {
+
+
+}
+
+
+
+.btn--large {
+  font-size: 1.3rem;
+}

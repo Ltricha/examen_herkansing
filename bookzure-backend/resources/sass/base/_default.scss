@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+
+  margin-top: 54px;
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+main {
+
+  //margin: 5rem 0 0 0
+}
+
+
+
+section {
+
+  padding: 4rem 0;
+
+}
+
+
+
+
+.right {
+  float: right;
+}
+
+
+.left {
+  float: left;
+}
+
+

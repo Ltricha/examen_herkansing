@@ -1,0 +1,15 @@
+
+
+
+.product-tile__img {
+
+
+  &.is-lazy {
+
+    opacity: 0;
+    transform: translateX(10rem);
+
+  }
+
+
+}
