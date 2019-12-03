@@ -2,4 +2,4 @@
  
  Link naar live website:
  
-http://25163.hosts1.ma-cloud.nl/bookzure/
+<a href='http://25163.hosts1.ma-cloud.nl/bookzure/'>Link naar mijn webshop</a>
